@@ -1,4 +1,4 @@
-//Test tạo tài khoản mớimới
+//Test tạo tài khoản mới
 POST http://localhost:3000/api/auth/register
 Content-Type: application/json
 
