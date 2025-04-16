@@ -15,8 +15,6 @@ const UserSchema = new Schema({
     phone: {
         type: String,
         required: false,
-        unique: true,
-        sparse: true // nếu vẫn muốn unique nhưng cho phép null
     },
     password: {
         type: String,
